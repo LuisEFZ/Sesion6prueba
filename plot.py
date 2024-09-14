@@ -1,4 +1,4 @@
-import streamlit as st
+eimport streamlit as st
 #from RamachanDraw import fetch, phi_psi, plot
 import matplotlib.pyplot as plt
 from ramachandraw.parser import get_phi_psi
