@@ -1,4 +1,4 @@
-eimport streamlit as st
+import streamlit as st
 #from RamachanDraw import fetch, phi_psi, plot
 import matplotlib.pyplot as plt
 from ramachandraw.parser import get_phi_psi
@@ -13,5 +13,5 @@ pdb_file = fetch_pdb(pdb_id)
 
 plt.figure()
 plot(pdb_file)
-st.markdown("Resultado :gift:")
+st.markdown("Resultado :cowboy_hat_face:")
 st.pyplot()
